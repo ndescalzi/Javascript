@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var x = 10;
+        var y = 20;
+    </script>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th></th>
+            <th>Salida X</th>
+            <th>Salida Y</th>
+        </tr>
+        <tr>
+            <td>Test A</td>
+            <td>
+                <script>
+                    document.write(x+x+1);
+                </script>
+            </td>
+            <td>
+                <script>
+                    document.write(y-y-x);
+                </script>
+            </td>
+        </tr>
+        <tr>
+            <td>Test B</td>
+            <td>
+                <script>
+                    document.write((x-y)+4);
+                </script>
+            </td>
+            <td>
+                <script>
+                    document.write(4+(y+5));
+                </script>
+            </td>
+        </tr>
+        <tr>
+            <td>Test C</td>
+            <td>
+                <script>
+                    document.write(x*2-4);
+                </script>
+            </td>
+            <td>
+                <script>
+                    document.write(4-y*2);
+                </script>
+            </td>
+        </tr><tr>
+            <td>Test D</td>
+            <td>
+                <script>
+                    document.write((20-x)/y);
+                </script>
+            </td>
+            <td>
+                <script>
+                    document.write(x*2/y);
+                </script>
+            </td>
+        </tr><tr>
+            <td>Test E</td>
+            <td>
+                <script>
+                    document.write(((1-x)*(y/8))*4*0);
+                </script>
+            </td>
+            <td>
+                <script>
+                    document.write((x+3)/x);
+                </script>
+            </td>
+        </tr>
+    </table>
+    <script>
+        alert("El valor de X es: "+x);
+        alert("El valor de Y es: "+y);
+    </script>
+</body>
+</html>
