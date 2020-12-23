@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS/JS.js"></script>
+</head>
+<body>
+    <h1 id="titulo">Mi enunciado</h1>
+    <h2 class="clase">Usando clase</h2>
+   <script>
+       var titulo = document.getElementById('titulo');
+       alert(titulo.innerHTML);
+       titulo.innerHTML = "Cambio en JavaScript";
+       var titulo2 = document.querySelector("#titulo");
+       alert("Usando otra forma " + titulo2.innerHTML);
+       alert(document.querySelector(".clase").innerHTML)
+       
+
+   </script>
+</body>
+</html>
