@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/definiciones.js"></script>
+</head>
+<body>
+<button onclick="funcion()">Convertir</button>
+    <table border="1" >
+        <tr>
+            <td >Introduzca un valor</td>
+            <td>Introduzca otro valor</td>
+            <td>La suma es:</td>
+            <td>La resta es:</td>
+            <td>La division es:</td>
+            <td>La multiplicacion es: </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" name="" class="nume1">
+                
+                <!-- <script>
+                document.write(numero1);
+            </script> --></td>
+            <td><script>
+                document.write(document.querySelector(".nume1").innerHTML);
+            </script></td>
+            <td><script>
+                document.write(numero1+numero2);
+            </script></td>
+            <td><script>
+                document.write(numero1-numero2);
+            </script></td>
+            <td id="division">
+                <script>
+                    if (numero2==0) {
+                        document.write("N/A");
+                    }else{
+                        document.write(numero1/numero2);
+                    }
+                </script>
+            </td>
+            <td>
+                <script>
+                document.write(numero1*numero2);
+                </script>
+                </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
